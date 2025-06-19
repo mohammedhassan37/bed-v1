@@ -1,0 +1,31 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.contact-items h1,label,input{
+    padding-bottom: 10px;
+    
+}
+
+.contact-items{
+    box-shadow: 10px 10px 10px 10px #31313184;
+    font-size: 17px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 14px;
+    text-align: center;
+    width: 350px;
+}
+
+.contact-items label{
+    font-weight: bold;
+}
+
+#reason {   
+    height: 30px;
+}

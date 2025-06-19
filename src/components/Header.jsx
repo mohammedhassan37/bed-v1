@@ -8,7 +8,7 @@ function Header() {
         <Link className="nav-items" to="/">Home</Link>
         <Link className="nav-items" to="/about">About</Link>
         <Link className="nav-items" to="/shop">Shop</Link>
-        <Link className="nav-items"  to="/randoms">Randoms</Link> {/* same plural path */}
+        <Link className="nav-items"  to="/Contact">Contact</Link> {/* same plural path */}
       </nav>
     </div>
   );
