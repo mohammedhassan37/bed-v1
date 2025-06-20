@@ -1,2 +1,2 @@
 1: Add form submission for contact.
-2: add personalised images and such and so 
+2: add personalised images and such and so to the shop page.
