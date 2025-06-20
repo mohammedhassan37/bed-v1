@@ -1,11 +1,2 @@
 1: Add form submission for contact.
-
-
-
-understnad how shop.jsx, productCard.jsx and products.js works:
-
-product.js has all of the products in a dictionary. so i can use props.
-
-in productCard.jsx i have the structure of the items. i import Product.js, the img and title, etc.
-with the import im able to dynamically change the liustings just within the js file and not have 
-to change the html itself. and dont need repetive html code, just the array. 
+2: add personalised images and such and so 
