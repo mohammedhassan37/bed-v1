@@ -1,31 +1,109 @@
-.contact-container{
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Poiret+One&display=swap');
+
+
+ 
+ .contact-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    
-}
+    height: 94.7vh; 
+    /* this vh so its properly flush onto the page. */
+} 
 
-.contact-items h1,label,input{
-    padding-bottom: 10px;
-    
-}
 
-.contact-items{
-    box-shadow: 10px 10px 10px 10px #31313184;
-    font-size: 17px;
+
+ .contact-left{
+    position: absolute;
+    left: 10%;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 4px 4px 12px rgba(49, 49, 49, 0.5);
     border-radius: 10px;
+   
+}
+
+
+.contact-left p,h2{
+    font-family: "Poiret One", sans-serif;;
+    margin: 25px;
+}
+
+.contact-left p{
+    font-size: 22px;
+}
+
+.contact-left h2{
+    font-family: "Delius", cursive;
+    font-size: 25px;
+} 
+
+
+ .contact-right{
+    position: absolute;
+    right: 10%;
+    top: 24%;
+    height: 57%;
+    padding-right: 20px;
+    width: 40%;
+     box-shadow: 4px 4px 12px rgba(63, 63, 63, 0.6);
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+#name{
+    width: 47.2%;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+.contact-right input,select,textarea{
+    border: 1px solid black;
+    padding-bottom: 10px;
+    height: 60px;
+    width: 97%;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Poiret One", sans-serif;
+    font-size: 17px;
+    background: none;
+    
+}
+
+.contact-right-itmes input,textarea,select{
     display: flex;
     flex-direction: column;
-    padding: 14px;
-    text-align: center;
-    width: 350px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
 }
 
-.contact-items label{
+.contact-right-itmes textarea{
+    height: 161.5px;
+    color: white;
+    font-size: 20px;
+}
+
+.contact-right button{
+    border: none;
     font-weight: bold;
+    font-size: 17px;
+    font-family: "Delius", cursive;;
+    width: 97%;
+    height: 54px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
 }
 
-#reason {   
-    height: 30px;
+.contact-right button:hover{
+    background-color: rgba(0, 0, 0, 0.445);
+    
 }
+
+.contact-right-itmes textarea:hover,.contact-right-itmes select:hover,.contact-right-itmes input:hover,#name:hover{
+     background-color: rgba(0, 0, 0, 0.082);
+}
+
