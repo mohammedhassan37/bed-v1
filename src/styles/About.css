@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Lobster&family=Poiret+One&display=swap');
+
+
+.about-header h1{
+    font-size: 53px;
+    font-family: "Lobster", sans-serif;
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.about-container{
+    margin: 3.5% 5% 3.5% 5%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.left-about,.right-about{
+    font-size: 23px;
+    height: 90%;
+    width: 45%;
+    background-color: #1e1e1e;
+    box-shadow: 4px 4px 12px rgba(49, 49, 49, 0.5);
+    border-radius: 10px;
+    padding: 13px;
+}
+
+.left-about h3,.right-about h3{
+    margin-top: 20px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-about{
+    
+    margin-right: 20px;
+}
+
+.right-about{
+    
+    margin-left: 20px;
+}
