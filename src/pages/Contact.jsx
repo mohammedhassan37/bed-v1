@@ -74,7 +74,7 @@ function Contact() {
             value={formData.firstName}
             onChange={handleChange}
           />
-          {errors.firstName && <div style={{ color: 'red' }}>{errors.firstName}</div>}
+          {errors.firstName && <div style={{ color: 'red' ,marginRight :'10px'}}>{errors.firstName}</div>}
 
           <input
             type="text"
