@@ -15,14 +15,11 @@
  .contact-left{
     background-color: #1e1e1e;
     box-shadow: 4px 4px 12px rgba(49, 49, 49, 0.5);
-    border-radius: 10px;
     position: absolute;
     left: 10%;
     padding: 20px;
     width: 25%;
-    box-shadow: 4px 4px 12px rgba(49, 49, 49, 0.5);
     border-radius: 10px;
-   
 }
 
 
@@ -48,7 +45,7 @@
     height: 57%;
     padding-right: 20px;
     width: 40%;
-     box-shadow: 4px 4px 12px rgba(63, 63, 63, 0.6);
+    box-shadow: 4px 4px 12px rgba(63, 63, 63, 0.6);
     border-radius: 10px;
     margin-left: 20px;
     padding: 0px 0px 0px 0px;
