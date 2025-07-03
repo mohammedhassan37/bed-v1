@@ -1,3 +1,5 @@
+import '../styles/Navigation.css'
+
 function Navigation({ selectedSize, setSelectedSize, sliderValue, setSliderValue }) {
   const handleChange = (e) => {
     setSelectedSize(e.target.value);
